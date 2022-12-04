@@ -47,7 +47,9 @@ get_header(); ?>
       </div>
     </div>
   <?php }
-  echo paginate_links();
+  echo paginate_links(array(
+    'total' => $pastEvents->max_num_pages
+  ));
 ?>
 </div>
 
