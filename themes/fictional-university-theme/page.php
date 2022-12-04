@@ -26,6 +26,8 @@
       <?php }
     ?>
 
+    
+    
     <?php 
     $testArray = get_pages(array(
       'child_of' => get_the_ID()
@@ -51,6 +53,7 @@
       </ul>
     </div>
     <?php } ?>
+    
 
     <div class="generic-content">
       <?php the_content(); ?>
