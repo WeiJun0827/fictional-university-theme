@@ -1,2 +1,5 @@
 plugins/
 uploads/
+build/
+**/node_modules/
+package-lock.json
